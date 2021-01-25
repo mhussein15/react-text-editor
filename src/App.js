@@ -9,7 +9,7 @@ function App() {
   const [fontstyle, sethandstyle] = useState(["normal", "white"]);
   const [textDecoration, settextDecoration] = useState(["none", "white"]);
   const [fontWeight, setfontWeight] = useState(["normal", "white"]);
-  const [fontSize, setfontSize] = useState(50);
+  const [fontSize, setfontSize] = useState(0);
 
   const handleChange = (color) => {
     setcolor(color.hex);
